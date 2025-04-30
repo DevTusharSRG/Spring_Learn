@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [29/Apr/2025:11:12:59 +0530] "GET / HTTP/1.1" 200 11430
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:13:01 +0530] "GET /manager/html HTTP/1.1" 200 20116
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:13:03 +0530] "POST /manager/html/stop?path=/ColabDemo&org.apache.catalina.filters.CSRF_NONCE=095EE1B57A98EF06F08AA85F152A3272 HTTP/1.1" 200 19582
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:13:04 +0530] "POST /manager/html/stop?path=/GovernmentScheme&org.apache.catalina.filters.CSRF_NONCE=8AF3700A718C27144F3C9C1AFE82509C HTTP/1.1" 200 18984
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:13:07 +0530] "POST /manager/html/undeploy?path=/ColabDemo&org.apache.catalina.filters.CSRF_NONCE=9ED94832EB27195A1AA0AAFD9990FC59 HTTP/1.1" 200 17735
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:13:28 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=85ED894D6E1BA1BBDD2D5D8A93A8293D HTTP/1.1" 200 17736
+0:0:0:0:0:0:0:1 - - [29/Apr/2025:11:13:30 +0530] "GET /GovernmentScheme/ HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [29/Apr/2025:11:14:00 +0530] "GET /GovernmentScheme/api/reports/farmers-schemes HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:16:16 +0530] "POST /manager/html/stop?path=/docs&org.apache.catalina.filters.CSRF_NONCE=D4F2E5DD8BAF968D2E6440816ED1D16E HTTP/1.1" 200 17146
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:16:17 +0530] "POST /manager/html/undeploy?path=/docs&org.apache.catalina.filters.CSRF_NONCE=6CF8D975A1AFE2423920BDF1B876B225 HTTP/1.1" 200 15911
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:16:29 +0530] "POST /manager/html/undeploy?path=/docs&org.apache.catalina.filters.CSRF_NONCE=6CF8D975A1AFE2423920BDF1B876B225 HTTP/1.1" 200 15902
+0:0:0:0:0:0:0:1 - - [29/Apr/2025:11:16:35 +0530] "GET / HTTP/1.1" 200 11430
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:16:37 +0530] "GET /manager/html HTTP/1.1" 200 15856
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:17:04 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=B0908269B7E463BA04A69C50F8A030EC HTTP/1.1" 200 15917
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:17:09 +0530] "POST /manager/html/undeploy?path=/GovernmentScheme&org.apache.catalina.filters.CSRF_NONCE=91C1467FA7E30E7F90520B30DAF53CB9 HTTP/1.1" 200 14634
+0:0:0:0:0:0:0:1 - robot [29/Apr/2025:11:17:24 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=CBA0E216AB9F165543F3B490B4FD1676 HTTP/1.1" 200 16467
+0:0:0:0:0:0:0:1 - - [29/Apr/2025:11:17:34 +0530] "GET /GovernmentScheme/api/reports/farmers-schemes HTTP/1.1" 200 855

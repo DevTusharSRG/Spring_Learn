@@ -1,0 +1,299 @@
+30-Apr-2025 11:27:25.098 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:27:25.207 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2025 11:27:25.823 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GovernmentScheme] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 11:27:25.855 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:27:25.902 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:35:35.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+30-Apr-2025 11:35:35.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+30-Apr-2025 11:35:35.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+30-Apr-2025 11:35:35.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+30-Apr-2025 11:35:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+30-Apr-2025 11:35:35.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2025 11:35:35.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+30-Apr-2025 11:35:35.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+30-Apr-2025 11:35:35.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2025 11:35:35.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2025 11:35:35.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2025 11:35:35.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2025 11:35:35.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\conf\logging.properties
+30-Apr-2025 11:35:35.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2025 11:35:35.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2025 11:35:35.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2025 11:35:35.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Apr-2025 11:35:35.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2025 11:35:35.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+30-Apr-2025 11:35:35.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+30-Apr-2025 11:35:35.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\temp
+30-Apr-2025 11:35:35.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+30-Apr-2025 11:35:35.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+30-Apr-2025 11:35:35.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+30-Apr-2025 11:35:35.293 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+30-Apr-2025 11:35:35.846 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:35:35.897 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [976] milliseconds
+30-Apr-2025 11:35:35.972 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2025 11:35:35.972 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+30-Apr-2025 11:35:36.003 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\GovernmentScheme.war]
+30-Apr-2025 11:35:39.961 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 11:35:40.262 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 11:35:41.457 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+30-Apr-2025 11:35:42.011 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Apr-2025 11:35:42.788 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 11:35:43.445 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.7.Final
+30-Apr-2025 11:35:44.633 WARN [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl.handleException GenerationTarget encountered exception accepting command : Error executing DDL "alter table government_scheme_application add column applicationId int8 not null" via JDBC Statement
+	org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table government_scheme_application add column applicationId int8 not null" via JDBC Statement
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:581)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:602)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:314)
+		at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:78)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:123)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:196)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:728)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+		at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:616)
+		at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:600)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:989)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:946)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:843)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4234)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4535)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1012)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:817)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:468)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1578)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.postgresql.util.PSQLException: ERROR: column "applicationid" of relation "government_scheme_application" contains null values
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+		at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+		at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+		at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+		... 116 more
+30-Apr-2025 11:35:44.700 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Apr-2025 11:35:45.536 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5274 ms
+30-Apr-2025 11:35:45.552 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\GovernmentScheme.war] has finished in [9,549] ms
+30-Apr-2025 11:35:45.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples]
+30-Apr-2025 11:35:45.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples] has finished in [424] ms
+30-Apr-2025 11:35:45.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager]
+30-Apr-2025 11:35:46.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager] has finished in [45] ms
+30-Apr-2025 11:35:46.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager]
+30-Apr-2025 11:35:46.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager] has finished in [31] ms
+30-Apr-2025 11:35:46.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT]
+30-Apr-2025 11:35:46.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT] has finished in [33] ms
+30-Apr-2025 11:35:46.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2025 11:35:46.110 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10215] milliseconds
+30-Apr-2025 11:36:25.261 WARNING [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GovernmentScheme] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 11:37:31.402 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollabeFarm.war]
+30-Apr-2025 11:37:34.261 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 11:37:34.286 INFO [http-nio-8080-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+30-Apr-2025 11:37:35.412 INFO [http-nio-8080-exec-11] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+30-Apr-2025 11:37:35.915 INFO [http-nio-8080-exec-11] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Apr-2025 11:37:36.487 INFO [http-nio-8080-exec-11] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 11:37:37.925 INFO [http-nio-8080-exec-11] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Apr-2025 11:37:38.115 INFO [http-nio-8080-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 3829 ms
+30-Apr-2025 11:37:38.163 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 11:37:39.422 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1259 ms
+30-Apr-2025 11:37:39.435 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollabeFarm.war] has finished in [8,033] ms
+30-Apr-2025 11:40:49.407 WARNING [http-nio-8080-exec-11] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for POST /CollabeFarm/api/users/login
+30-Apr-2025 11:41:32.130 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CollabeFarm] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 11:43:03.191 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+30-Apr-2025 11:43:06.667 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 11:43:06.898 INFO [http-nio-8080-exec-21] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 11:43:08.031 INFO [http-nio-8080-exec-21] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+30-Apr-2025 11:43:08.031 INFO [http-nio-8080-exec-21] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+30-Apr-2025 11:43:08.436 INFO [http-nio-8080-exec-21] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+30-Apr-2025 11:43:08.949 INFO [http-nio-8080-exec-21] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 11:43:09.101 INFO [http-nio-8080-exec-21] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30-Apr-2025 11:43:09.112 INFO [http-nio-8080-exec-21] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6f3c04ea
+30-Apr-2025 11:43:09.601 INFO [http-nio-8080-exec-21] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+30-Apr-2025 11:43:11.799 INFO [http-nio-8080-exec-21] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4901 ms
+30-Apr-2025 11:43:11.802 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,611] ms
+30-Apr-2025 11:43:35.153 WARNING [http-nio-8080-exec-24] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for POST /FinalProject/api/users/login
+30-Apr-2025 11:43:45.629 INFO [http-nio-8080-exec-22] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+30-Apr-2025 11:47:44.711 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 11:47:47.377 INFO [http-nio-8080-exec-22] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+30-Apr-2025 11:47:47.421 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+30-Apr-2025 11:54:41.171 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+30-Apr-2025 11:54:46.270 INFO [http-nio-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 11:54:46.506 INFO [http-nio-8080-exec-31] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 11:54:47.702 INFO [http-nio-8080-exec-31] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+30-Apr-2025 11:54:47.706 INFO [http-nio-8080-exec-31] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+30-Apr-2025 11:54:48.121 INFO [http-nio-8080-exec-31] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+30-Apr-2025 11:54:48.639 INFO [http-nio-8080-exec-31] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 11:54:48.787 INFO [http-nio-8080-exec-31] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30-Apr-2025 11:54:48.801 INFO [http-nio-8080-exec-31] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@63d5c7de
+30-Apr-2025 11:54:49.278 INFO [http-nio-8080-exec-31] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+30-Apr-2025 11:54:51.208 INFO [http-nio-8080-exec-31] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4702 ms
+30-Apr-2025 11:54:51.210 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [10,040] ms
+30-Apr-2025 11:54:59.114 INFO [http-nio-8080-exec-35] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+30-Apr-2025 11:59:15.308 WARNING [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 11:59:16.364 INFO [http-nio-8080-exec-38] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+30-Apr-2025 11:59:16.406 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+30-Apr-2025 11:59:22.379 INFO [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+30-Apr-2025 11:59:25.688 INFO [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 11:59:25.903 INFO [http-nio-8080-exec-34] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 11:59:27.082 INFO [http-nio-8080-exec-34] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+30-Apr-2025 11:59:27.089 INFO [http-nio-8080-exec-34] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+30-Apr-2025 11:59:27.489 INFO [http-nio-8080-exec-34] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+30-Apr-2025 11:59:28.000 INFO [http-nio-8080-exec-34] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 11:59:28.145 INFO [http-nio-8080-exec-34] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30-Apr-2025 11:59:28.156 INFO [http-nio-8080-exec-34] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@36f6f2fb
+30-Apr-2025 11:59:28.661 INFO [http-nio-8080-exec-34] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+30-Apr-2025 11:59:30.677 INFO [http-nio-8080-exec-34] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4774 ms
+30-Apr-2025 11:59:30.681 INFO [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,303] ms
+30-Apr-2025 11:59:34.465 INFO [http-nio-8080-exec-35] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+30-Apr-2025 12:04:47.865 WARNING [http-nio-8080-exec-44] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 12:04:49.423 INFO [http-nio-8080-exec-45] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+30-Apr-2025 12:04:49.469 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+30-Apr-2025 12:04:55.933 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+30-Apr-2025 12:04:59.477 INFO [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 12:04:59.693 INFO [http-nio-8080-exec-42] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 12:05:00.860 INFO [http-nio-8080-exec-42] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+30-Apr-2025 12:05:00.869 INFO [http-nio-8080-exec-42] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+30-Apr-2025 12:05:01.289 INFO [http-nio-8080-exec-42] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+30-Apr-2025 12:05:01.778 INFO [http-nio-8080-exec-42] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 12:05:01.891 INFO [http-nio-8080-exec-42] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30-Apr-2025 12:05:01.904 INFO [http-nio-8080-exec-42] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@43710f70
+30-Apr-2025 12:05:02.276 INFO [http-nio-8080-exec-42] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+30-Apr-2025 12:05:03.823 INFO [http-nio-8080-exec-42] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4130 ms
+30-Apr-2025 12:05:03.833 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [7,900] ms
+30-Apr-2025 12:05:09.827 INFO [http-nio-8080-exec-49] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+30-Apr-2025 12:09:21.570 WARNING [http-nio-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 12:09:23.076 INFO [http-nio-8080-exec-56] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+30-Apr-2025 12:09:23.120 INFO [http-nio-8080-exec-56] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+30-Apr-2025 12:09:28.222 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+30-Apr-2025 12:09:31.679 INFO [http-nio-8080-exec-57] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 12:09:31.905 INFO [http-nio-8080-exec-57] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 12:09:33.072 INFO [http-nio-8080-exec-57] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+30-Apr-2025 12:09:33.072 INFO [http-nio-8080-exec-57] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+30-Apr-2025 12:09:33.504 INFO [http-nio-8080-exec-57] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+30-Apr-2025 12:09:34.018 INFO [http-nio-8080-exec-57] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 12:09:34.177 INFO [http-nio-8080-exec-57] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30-Apr-2025 12:09:34.195 INFO [http-nio-8080-exec-57] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3441debf
+30-Apr-2025 12:09:34.695 INFO [http-nio-8080-exec-57] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+30-Apr-2025 12:09:36.703 INFO [http-nio-8080-exec-57] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4798 ms
+30-Apr-2025 12:09:36.705 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,483] ms
+30-Apr-2025 12:09:43.541 INFO [http-nio-8080-exec-54] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+30-Apr-2025 12:11:51.345 WARNING [http-nio-8080-exec-61] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2025 12:11:52.856 INFO [http-nio-8080-exec-69] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+30-Apr-2025 12:11:52.897 INFO [http-nio-8080-exec-69] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+30-Apr-2025 12:11:59.567 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+30-Apr-2025 12:12:02.963 INFO [http-nio-8080-exec-70] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2025 12:12:03.191 INFO [http-nio-8080-exec-70] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Apr-2025 12:12:04.422 INFO [http-nio-8080-exec-70] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+30-Apr-2025 12:12:04.422 INFO [http-nio-8080-exec-70] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+30-Apr-2025 12:12:04.825 INFO [http-nio-8080-exec-70] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+30-Apr-2025 12:12:05.310 INFO [http-nio-8080-exec-70] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Apr-2025 12:12:05.457 INFO [http-nio-8080-exec-70] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30-Apr-2025 12:12:05.477 INFO [http-nio-8080-exec-70] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d160356
+30-Apr-2025 12:12:05.971 INFO [http-nio-8080-exec-70] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+30-Apr-2025 12:12:08.115 INFO [http-nio-8080-exec-70] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4924 ms
+30-Apr-2025 12:12:08.122 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,555] ms
+30-Apr-2025 12:13:56.409 INFO [http-nio-8080-exec-71] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory

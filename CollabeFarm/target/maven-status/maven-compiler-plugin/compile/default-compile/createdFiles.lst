@@ -1,0 +1,8 @@
+config\WebConfig.class
+EmbeddedTomcatRunner.class
+controller\UserController.class
+model\UserType.class
+service\UserService.class
+dao\UserDao.class
+config\AppConfig.class
+model\User.class

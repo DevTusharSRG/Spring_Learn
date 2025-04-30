@@ -1,0 +1,216 @@
+20-Apr-2025 23:25:05.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+20-Apr-2025 23:25:05.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+20-Apr-2025 23:25:05.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+20-Apr-2025 23:25:05.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-Apr-2025 23:25:05.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Apr-2025 23:25:05.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Apr-2025 23:25:05.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+20-Apr-2025 23:25:05.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+20-Apr-2025 23:25:05.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Apr-2025 23:25:05.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:25:05.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:25:05.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Apr-2025 23:25:05.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+20-Apr-2025 23:25:05.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+20-Apr-2025 23:25:05.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Apr-2025 23:25:05.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Apr-2025 23:25:05.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Apr-2025 23:25:05.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Apr-2025 23:25:05.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\conf\logging.properties
+20-Apr-2025 23:25:05.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Apr-2025 23:25:05.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Apr-2025 23:25:05.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Apr-2025 23:25:05.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+20-Apr-2025 23:25:05.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Apr-2025 23:25:05.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:25:05.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:25:05.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\temp
+20-Apr-2025 23:25:05.101 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+20-Apr-2025 23:25:05.101 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Apr-2025 23:25:05.101 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Apr-2025 23:25:05.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+20-Apr-2025 23:25:05.659 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Apr-2025 23:25:05.680 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 11 more
+20-Apr-2025 23:25:05.682 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [909] milliseconds
+20-Apr-2025 23:25:05.756 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Apr-2025 23:25:05.757 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+20-Apr-2025 23:25:05.785 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollabeFarm.war]
+20-Apr-2025 23:25:08.731 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:25:08.792 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2025 23:25:10.091 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+20-Apr-2025 23:25:10.647 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20-Apr-2025 23:25:11.405 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+20-Apr-2025 23:25:13.117 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20-Apr-2025 23:25:13.336 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 4544 ms
+20-Apr-2025 23:25:13.392 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:25:14.647 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1255 ms
+20-Apr-2025 23:25:14.664 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollabeFarm.war] has finished in [8,877] ms
+20-Apr-2025 23:25:14.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\docs]
+20-Apr-2025 23:25:14.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\docs] has finished in [45] ms
+20-Apr-2025 23:25:14.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples]
+20-Apr-2025 23:25:15.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples] has finished in [518] ms
+20-Apr-2025 23:25:15.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager]
+20-Apr-2025 23:25:15.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager] has finished in [48] ms
+20-Apr-2025 23:25:15.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager]
+20-Apr-2025 23:25:15.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager] has finished in [47] ms
+20-Apr-2025 23:25:15.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT]
+20-Apr-2025 23:25:15.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT] has finished in [25] ms
+20-Apr-2025 23:25:15.355 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9670] milliseconds
+20-Apr-2025 23:25:15.355 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+20-Apr-2025 23:25:15.356 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Apr-2025 23:25:15.356 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Apr-2025 23:25:15.403 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CollabeFarm] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Apr-2025 23:25:15.410 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Apr-2025 23:25:15.411 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Apr-2025 23:25:32.805 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+20-Apr-2025 23:26:14.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+20-Apr-2025 23:26:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+20-Apr-2025 23:26:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+20-Apr-2025 23:26:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-Apr-2025 23:26:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Apr-2025 23:26:14.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Apr-2025 23:26:14.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+20-Apr-2025 23:26:14.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+20-Apr-2025 23:26:14.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Apr-2025 23:26:14.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:26:14.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:26:14.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Apr-2025 23:26:14.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+20-Apr-2025 23:26:14.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+20-Apr-2025 23:26:14.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Apr-2025 23:26:14.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Apr-2025 23:26:14.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Apr-2025 23:26:14.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Apr-2025 23:26:14.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\conf\logging.properties
+20-Apr-2025 23:26:14.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Apr-2025 23:26:14.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Apr-2025 23:26:14.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Apr-2025 23:26:14.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+20-Apr-2025 23:26:14.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Apr-2025 23:26:14.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:26:14.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+20-Apr-2025 23:26:14.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\temp
+20-Apr-2025 23:26:14.308 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+20-Apr-2025 23:26:14.308 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Apr-2025 23:26:14.309 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Apr-2025 23:26:14.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+20-Apr-2025 23:26:14.842 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Apr-2025 23:26:14.878 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [841] milliseconds
+20-Apr-2025 23:26:14.939 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Apr-2025 23:26:14.940 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+20-Apr-2025 23:26:14.963 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollabeFarm.war]
+20-Apr-2025 23:26:17.664 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:26:17.730 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2025 23:26:19.003 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+20-Apr-2025 23:26:19.611 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20-Apr-2025 23:26:20.308 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+20-Apr-2025 23:26:21.801 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20-Apr-2025 23:26:22.016 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 4286 ms
+20-Apr-2025 23:26:22.065 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:26:23.025 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 960 ms
+20-Apr-2025 23:26:23.037 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollabeFarm.war] has finished in [8,075] ms
+20-Apr-2025 23:26:23.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\docs]
+20-Apr-2025 23:26:23.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\docs] has finished in [44] ms
+20-Apr-2025 23:26:23.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples]
+20-Apr-2025 23:26:23.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples] has finished in [381] ms
+20-Apr-2025 23:26:23.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager]
+20-Apr-2025 23:26:23.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager] has finished in [38] ms
+20-Apr-2025 23:26:23.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager]
+20-Apr-2025 23:26:23.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager] has finished in [36] ms
+20-Apr-2025 23:26:23.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT]
+20-Apr-2025 23:26:23.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT] has finished in [24] ms
+20-Apr-2025 23:26:23.567 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Apr-2025 23:26:23.592 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8712] milliseconds
+20-Apr-2025 23:26:34.625 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CollabeFarm] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Apr-2025 23:27:54.637 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war]
+20-Apr-2025 23:27:57.223 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:27:57.241 INFO [http-nio-8080-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2025 23:27:57.639 INFO [http-nio-8080-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 397 ms
+20-Apr-2025 23:27:57.702 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:27:58.876 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1174 ms
+20-Apr-2025 23:27:58.881 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war] has finished in [4,244] ms
+20-Apr-2025 23:28:31.390 WARNING [http-nio-8080-exec-12] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get
+20-Apr-2025 23:30:21.583 WARNING [http-nio-8080-exec-14] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get
+20-Apr-2025 23:30:33.296 INFO [http-nio-8080-exec-11] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ColabFarm]] after stop() had already been called. The second call will be ignored.
+20-Apr-2025 23:30:33.328 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ColabFarm]
+20-Apr-2025 23:31:18.211 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war]
+20-Apr-2025 23:31:20.634 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:31:20.651 INFO [http-nio-8080-exec-3] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2025 23:31:21.044 INFO [http-nio-8080-exec-3] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 392 ms
+20-Apr-2025 23:31:21.107 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:31:22.231 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1123 ms
+20-Apr-2025 23:31:22.236 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war] has finished in [4,025] ms
+20-Apr-2025 23:31:34.441 WARNING [http-nio-8080-exec-20] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get
+20-Apr-2025 23:37:37.415 WARNING [http-nio-8080-exec-20] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get%0A
+20-Apr-2025 23:39:47.756 INFO [http-nio-8080-exec-20] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ColabFarm]] after stop() had already been called. The second call will be ignored.
+20-Apr-2025 23:39:47.798 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ColabFarm]
+20-Apr-2025 23:40:25.974 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war]
+20-Apr-2025 23:40:28.285 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:40:28.309 INFO [http-nio-8080-exec-21] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2025 23:40:28.674 INFO [http-nio-8080-exec-21] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 364 ms
+20-Apr-2025 23:40:28.729 INFO [http-nio-8080-exec-21] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:40:29.812 INFO [http-nio-8080-exec-21] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1083 ms
+20-Apr-2025 23:40:29.815 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war] has finished in [3,841] ms
+20-Apr-2025 23:41:21.518 WARNING [http-nio-8080-exec-33] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get%0A
+20-Apr-2025 23:42:32.366 WARNING [http-nio-8080-exec-30] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get%0A
+20-Apr-2025 23:42:35.166 WARNING [http-nio-8080-exec-31] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get%0A
+20-Apr-2025 23:45:02.971 WARNING [http-nio-8080-exec-33] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for POST /ColabFarm/api/users/get
+20-Apr-2025 23:45:42.174 WARNING [http-nio-8080-exec-34] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get
+20-Apr-2025 23:51:44.706 INFO [http-nio-8080-exec-39] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ColabFarm]] after stop() had already been called. The second call will be ignored.
+20-Apr-2025 23:51:44.741 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ColabFarm]
+20-Apr-2025 23:51:54.769 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war]
+20-Apr-2025 23:51:57.112 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:51:57.319 INFO [http-nio-8080-exec-30] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:51:58.181 INFO [http-nio-8080-exec-30] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 862 ms
+20-Apr-2025 23:51:58.186 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war] has finished in [3,416] ms
+20-Apr-2025 23:52:23.182 WARNING [http-nio-8080-exec-40] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get
+20-Apr-2025 23:57:17.500 INFO [http-nio-8080-exec-44] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CollabeFarm]] after stop() had already been called. The second call will be ignored.
+20-Apr-2025 23:57:17.571 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CollabeFarm]
+20-Apr-2025 23:57:18.767 INFO [http-nio-8080-exec-49] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ColabFarm]] after stop() had already been called. The second call will be ignored.
+20-Apr-2025 23:57:18.798 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ColabFarm]
+20-Apr-2025 23:59:10.801 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war]
+20-Apr-2025 23:59:13.117 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2025 23:59:13.359 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+20-Apr-2025 23:59:14.219 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 860 ms
+20-Apr-2025 23:59:14.223 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ColabFarm.war] has finished in [3,422] ms
+20-Apr-2025 23:59:33.737 WARNING [http-nio-8080-exec-54] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /ColabFarm/api/users/get

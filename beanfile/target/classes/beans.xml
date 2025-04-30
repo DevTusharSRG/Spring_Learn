@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- Simple HelloService bean -->
+    <bean id="helloService" class="com.tushar.beanfile.HelloService"/>
+
+    <!-- Define Course Bean -->
+    <bean id="course" class="com.tushar.beanfile.Course">
+        
+        <constructor-arg value="Spring Framework" />
+    </bean>
+
+    <!-- Define Student Bean with constructor and setter injection -->
+    <bean id="student" class="com.tushar.beanfile.Student">
+        <!-- constructor injection -->
+        <constructor-arg value="101" />
+        <constructor-arg value="Tushar Gaikwad" />
+        
+        <!-- setter injection -->
+        <property name="course" ref="course" />
+        <property name="age" value="18" />
+        <property name="phones" > 
+            <list>
+                <value>123456</value>
+                <value>123456</value>
+                <value>123456</value>
+            </list>
+        </property>
+         
+    </bean>
+
+</beans>
+
