@@ -20,7 +20,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-//@MapperScan("com.finalpro.user.mapper")
 @ComponentScan(basePackages = "com.finalpro")
 @EnableTransactionManagement
 public class AppConfig implements WebMvcConfigurer {

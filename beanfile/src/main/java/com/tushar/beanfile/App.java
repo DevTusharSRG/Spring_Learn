@@ -16,7 +16,8 @@ public class App {
 		
         
         //ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        context.getBean("helloService");
+        HelloService hello = (HelloService)context.getBean("helloService");
+        hello.sayHello();
         Student student = (Student) context.getBean("student");
         student.displayInfo();
     }

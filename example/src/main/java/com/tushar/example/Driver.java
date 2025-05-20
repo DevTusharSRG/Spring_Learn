@@ -7,9 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class Driver {
+	@Autowired
     private Car car;
 
-    @Autowired
+    
     public void setCar(Car car) {
         this.car = car;
     }

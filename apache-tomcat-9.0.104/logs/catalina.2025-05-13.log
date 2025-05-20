@@ -1,0 +1,757 @@
+13-May-2025 10:22:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.104
+13-May-2025 10:22:13.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 4 2025 12:32:55 UTC
+13-May-2025 10:22:13.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.104.0
+13-May-2025 10:22:13.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-May-2025 10:22:13.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-May-2025 10:22:13.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-May-2025 10:22:13.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+13-May-2025 10:22:13.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+13-May-2025 10:22:13.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-May-2025 10:22:13.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+13-May-2025 10:22:13.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+13-May-2025 10:22:13.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-May-2025 10:22:13.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+13-May-2025 10:22:13.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+13-May-2025 10:22:13.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-May-2025 10:22:13.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-May-2025 10:22:13.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-May-2025 10:22:13.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-May-2025 10:22:13.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\conf\logging.properties
+13-May-2025 10:22:13.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-May-2025 10:22:13.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-May-2025 10:22:13.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-May-2025 10:22:13.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+13-May-2025 10:22:13.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-May-2025 10:22:13.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+13-May-2025 10:22:13.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104
+13-May-2025 10:22:13.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\temp
+13-May-2025 10:22:13.206 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+13-May-2025 10:22:13.206 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-May-2025 10:22:13.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-May-2025 10:22:13.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+13-May-2025 10:22:13.803 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-May-2025 10:22:13.837 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [981] milliseconds
+13-May-2025 10:22:13.901 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-May-2025 10:22:13.901 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+13-May-2025 10:22:13.923 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollaborativeFarming.war]
+13-May-2025 10:22:17.871 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 10:22:18.226 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 10:22:19.707 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+13-May-2025 10:22:19.715 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-May-2025 10:22:20.204 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+13-May-2025 10:22:21.304 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 10:22:21.484 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-May-2025 10:22:21.500 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@46fbb0a3
+13-May-2025 10:22:21.960 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+13-May-2025 10:22:24.002 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5776 ms
+13-May-2025 10:22:24.019 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\CollaborativeFarming.war] has finished in [10,096] ms
+13-May-2025 10:22:24.019 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+13-May-2025 10:22:26.542 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 10:22:26.720 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 10:22:27.592 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+13-May-2025 10:22:27.592 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-May-2025 10:22:27.907 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+13-May-2025 10:22:28.267 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 10:22:28.377 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-May-2025 10:22:28.386 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1773fc0
+13-May-2025 10:22:28.754 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+13-May-2025 10:22:30.421 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 3699 ms
+13-May-2025 10:22:30.421 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [6,402] ms
+13-May-2025 10:22:30.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples]
+13-May-2025 10:22:30.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\examples] has finished in [393] ms
+13-May-2025 10:22:30.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager]
+13-May-2025 10:22:30.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\host-manager] has finished in [46] ms
+13-May-2025 10:22:30.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager]
+13-May-2025 10:22:30.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\manager] has finished in [32] ms
+13-May-2025 10:22:30.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT]
+13-May-2025 10:22:30.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\ROOT] has finished in [16] ms
+13-May-2025 10:22:30.923 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-May-2025 10:22:30.938 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17113] milliseconds
+13-May-2025 11:42:19.378 WARNING [http-nio-8080-exec-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+13-May-2025 11:42:24.562 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+13-May-2025 11:42:24.639 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+13-May-2025 11:42:55.830 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+13-May-2025 11:42:59.342 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 11:42:59.554 INFO [http-nio-8080-exec-8] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 11:43:00.457 WARNING [http-nio-8080-exec-8] org.springframework.context.support.AbstractApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+13-May-2025 11:43:00.469 SEVERE [http-nio-8080-exec-8] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:989)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:946)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:843)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4234)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4535)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1012)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:535)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1652)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:263)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1457)
+		at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:253)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:180)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:430)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:354)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 72 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:351)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 86 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:536)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1245)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1213)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findDefaultEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:565)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:528)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.resolveEntityManager(PersistenceAnnotationBeanPostProcessor.java:696)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.getResourceToInject(PersistenceAnnotationBeanPostProcessor.java:669)
+		at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:348)
+		... 97 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:481)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911)
+		at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+		... 116 more
+	Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+		... 130 more
+	Caused by: java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)
+		at com.finalpro.config.AppConfig.dataSource(AppConfig.java:36)
+		at com.finalpro.config.AppConfig$$EnhancerBySpringCGLIB$$2fe18fd5.CGLIB$dataSource$0(<generated>)
+		at com.finalpro.config.AppConfig$$EnhancerBySpringCGLIB$$2fe18fd5$$FastClassBySpringCGLIB$$a6c54fd7.invoke(<generated>)
+		at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+		at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+		at com.finalpro.config.AppConfig$$EnhancerBySpringCGLIB$$2fe18fd5.dataSource(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+		... 131 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver1
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1354)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1163)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:578)
+		at java.base/java.lang.Class.forName(Class.java:557)
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:128)
+		... 140 more
+13-May-2025 11:43:00.479 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [4,649] ms
+13-May-2025 11:46:43.612 INFO [http-nio-8080-exec-12] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 11:46:43.790 WARNING [http-nio-8080-exec-12] org.springframework.context.support.AbstractApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+13-May-2025 11:46:43.790 SEVERE [http-nio-8080-exec-12] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:989)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:946)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:664)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:116)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 40 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:351)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 54 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Unsatisfied dependency expressed through method 'sessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:536)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1245)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1213)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findDefaultEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:565)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:528)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.resolveEntityManager(PersistenceAnnotationBeanPostProcessor.java:696)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.getResourceToInject(PersistenceAnnotationBeanPostProcessor.java:669)
+		at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:348)
+		... 65 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in com.finalpro.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:481)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911)
+		at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+		... 84 more
+	Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+		... 98 more
+	Caused by: java.lang.IllegalStateException: Could not load JDBC driver class [org.postgresql.Driver1]
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)
+		at com.finalpro.config.AppConfig.dataSource(AppConfig.java:36)
+		at com.finalpro.config.AppConfig$$EnhancerBySpringCGLIB$$2fe18fd5.CGLIB$dataSource$0(<generated>)
+		at com.finalpro.config.AppConfig$$EnhancerBySpringCGLIB$$2fe18fd5$$FastClassBySpringCGLIB$$a6c54fd7.invoke(<generated>)
+		at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+		at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+		at com.finalpro.config.AppConfig$$EnhancerBySpringCGLIB$$2fe18fd5.dataSource(<generated>)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+		... 99 more
+	Caused by: java.lang.ClassNotFoundException: org.postgresql.Driver1
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1354)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1163)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:578)
+		at java.base/java.lang.Class.forName(Class.java:557)
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:128)
+		... 108 more
+13-May-2025 11:51:24.831 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+13-May-2025 11:51:24.906 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+13-May-2025 11:51:30.579 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+13-May-2025 11:51:33.800 INFO [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 11:51:33.991 INFO [http-nio-8080-exec-15] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 11:51:35.150 INFO [http-nio-8080-exec-15] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+13-May-2025 11:51:35.166 INFO [http-nio-8080-exec-15] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-May-2025 11:51:35.586 INFO [http-nio-8080-exec-15] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+13-May-2025 11:51:36.141 INFO [http-nio-8080-exec-15] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 11:51:36.312 INFO [http-nio-8080-exec-15] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-May-2025 11:51:36.314 INFO [http-nio-8080-exec-15] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@71279f4e
+13-May-2025 11:51:36.789 INFO [http-nio-8080-exec-15] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+13-May-2025 11:51:39.000 INFO [http-nio-8080-exec-15] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5009 ms
+13-May-2025 11:51:39.000 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,421] ms
+13-May-2025 11:52:14.423 INFO [http-nio-8080-exec-17] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-May-2025 11:52:34.881 WARNING [http-nio-8080-exec-21] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+13-May-2025 11:52:36.744 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+13-May-2025 11:52:36.813 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+13-May-2025 11:52:45.147 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+13-May-2025 11:52:48.463 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 11:52:48.659 INFO [http-nio-8080-exec-22] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 11:52:49.809 INFO [http-nio-8080-exec-22] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+13-May-2025 11:52:49.818 INFO [http-nio-8080-exec-22] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-May-2025 11:52:50.237 INFO [http-nio-8080-exec-22] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+13-May-2025 11:52:50.653 WARN [http-nio-8080-exec-22] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH000342: Could not obtain connection to query metadata : FATAL: database "colabDB12" does not exist
+13-May-2025 11:52:50.679 INFO [http-nio-8080-exec-22] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 11:52:50.721 INFO [http-nio-8080-exec-22] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.makeLobCreatorBuilder HHH000422: Disabling contextual LOB creation as connection was null
+13-May-2025 11:52:50.734 INFO [http-nio-8080-exec-22] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@bd60f24
+13-May-2025 11:52:51.192 INFO [http-nio-8080-exec-22] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+13-May-2025 11:52:52.349 WARN [http-nio-8080-exec-22] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 3D000
+13-May-2025 11:52:52.349 ERROR [http-nio-8080-exec-22] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions FATAL: database "colabDB12" does not exist
+13-May-2025 11:52:52.355 WARNING [http-nio-8080-exec-22] org.springframework.context.support.AbstractApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+13-May-2025 11:52:52.363 SEVERE [http-nio-8080-exec-22] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:989)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:946)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:843)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4234)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4535)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1012)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:535)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1652)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:263)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1457)
+		at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:253)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:180)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:430)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:354)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 72 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:351)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 86 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1245)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1213)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findDefaultEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:565)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:528)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.resolveEntityManager(PersistenceAnnotationBeanPostProcessor.java:696)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.getResourceToInject(PersistenceAnnotationBeanPostProcessor.java:669)
+		at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:348)
+		... 97 more
+	Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+		at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:40)
+		at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:65)
+		at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:59)
+		at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:132)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+		at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:616)
+		at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:600)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+		... 113 more
+	Caused by: org.postgresql.util.PSQLException: FATAL: database "colabDB12" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+		at org.postgresql.Driver.makeConnection(Driver.java:443)
+		at org.postgresql.Driver.connect(Driver.java:297)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+		at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+		at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 129 more
+13-May-2025 11:52:52.369 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [7,222] ms
+13-May-2025 11:52:55.540 INFO [http-nio-8080-exec-25] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 11:52:55.794 WARN [http-nio-8080-exec-25] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH000342: Could not obtain connection to query metadata : FATAL: database "colabDB12" does not exist
+13-May-2025 11:52:55.795 INFO [http-nio-8080-exec-25] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 11:52:55.795 INFO [http-nio-8080-exec-25] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.makeLobCreatorBuilder HHH000422: Disabling contextual LOB creation as connection was null
+13-May-2025 11:52:55.795 INFO [http-nio-8080-exec-25] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@bd60f24
+13-May-2025 11:52:55.932 WARN [http-nio-8080-exec-25] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 3D000
+13-May-2025 11:52:55.932 ERROR [http-nio-8080-exec-25] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions FATAL: database "colabDB12" does not exist
+13-May-2025 11:52:55.932 WARNING [http-nio-8080-exec-25] org.springframework.context.support.AbstractApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+13-May-2025 11:52:55.932 SEVERE [http-nio-8080-exec-25] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceReportController': Unsatisfied dependency expressed through field 'serviceUsageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:989)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:946)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:664)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:116)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:656)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1792)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceUsageServiceImpl': Unsatisfied dependency expressed through field 'serviceUsageDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 40 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceUsageDaoImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:351)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+		... 54 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.finalpro.config.AppConfig: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1245)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1213)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findDefaultEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:565)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:528)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.resolveEntityManager(PersistenceAnnotationBeanPostProcessor.java:696)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.getResourceToInject(PersistenceAnnotationBeanPostProcessor.java:669)
+		at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(PersistenceAnnotationBeanPostProcessor.java:348)
+		... 65 more
+	Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+		at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:40)
+		at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:65)
+		at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:59)
+		at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:132)
+		at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+		at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:616)
+		at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:600)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+		... 81 more
+	Caused by: org.postgresql.util.PSQLException: FATAL: database "colabDB12" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+		at org.postgresql.Driver.makeConnection(Driver.java:443)
+		at org.postgresql.Driver.connect(Driver.java:297)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+		at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+		at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+		at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 97 more
+13-May-2025 12:03:48.184 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+13-May-2025 12:03:48.278 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+13-May-2025 12:04:11.232 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+13-May-2025 12:04:14.544 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 12:04:14.769 INFO [http-nio-8080-exec-32] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 12:04:15.944 INFO [http-nio-8080-exec-32] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+13-May-2025 12:04:15.944 INFO [http-nio-8080-exec-32] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-May-2025 12:04:16.349 INFO [http-nio-8080-exec-32] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+13-May-2025 12:04:16.824 INFO [http-nio-8080-exec-32] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 12:04:16.961 INFO [http-nio-8080-exec-32] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-May-2025 12:04:16.969 INFO [http-nio-8080-exec-32] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@703e9fc8
+13-May-2025 12:04:17.420 INFO [http-nio-8080-exec-32] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+13-May-2025 12:04:19.249 INFO [http-nio-8080-exec-32] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4480 ms
+13-May-2025 12:04:19.251 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,020] ms
+13-May-2025 12:04:22.647 INFO [http-nio-8080-exec-37] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-May-2025 12:09:48.476 WARNING [http-nio-8080-exec-39] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProject] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+13-May-2025 12:09:50.117 INFO [http-nio-8080-exec-48] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProject]] after stop() had already been called. The second call will be ignored.
+13-May-2025 12:09:50.169 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProject]
+13-May-2025 12:09:55.614 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war]
+13-May-2025 12:09:58.872 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2025 12:09:59.081 INFO [http-nio-8080-exec-41] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+13-May-2025 12:10:00.256 INFO [http-nio-8080-exec-41] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.30.Final}
+13-May-2025 12:10:00.260 INFO [http-nio-8080-exec-41] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-May-2025 12:10:00.686 INFO [http-nio-8080-exec-41] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+13-May-2025 12:10:01.316 INFO [http-nio-8080-exec-41] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-May-2025 12:10:01.458 INFO [http-nio-8080-exec-41] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-May-2025 12:10:01.479 INFO [http-nio-8080-exec-41] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4252b75c
+13-May-2025 12:10:01.969 INFO [http-nio-8080-exec-41] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.1.5.Final
+13-May-2025 12:10:04.085 INFO [http-nio-8080-exec-41] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 5004 ms
+13-May-2025 12:10:04.101 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\HP\Desktop\javaspring\apache-tomcat-9.0.104\webapps\FinalProject.war] has finished in [8,487] ms
+13-May-2025 12:10:05.546 INFO [http-nio-8080-exec-44] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory

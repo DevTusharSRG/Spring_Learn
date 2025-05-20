@@ -10,6 +10,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name="service_provider")
 public class ServiceProviderModel{
@@ -55,12 +62,12 @@ public class ServiceProviderModel{
     @Column(name = "create_date")
     private Timestamp createDate;
 
-	public long getserviceProviderId() {
+	public long getServiceProviderId() {
 		return serviceProviderId;
 	}
 
-	public void setserviceProviderId(long id) {
-		this.serviceProviderId = id;
+	public void setServiceProviderId(long serviceProviderId) {
+		this.serviceProviderId = serviceProviderId;
 	}
 
 	public Long getServiceId() {
@@ -158,4 +165,7 @@ public class ServiceProviderModel{
 	public void setCreateDate(Timestamp createDate) {
 		this.createDate = createDate;
 	}
+    
+    
+
 }

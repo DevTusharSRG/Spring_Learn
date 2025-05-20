@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.GovernmentSchemes.GovernmentSchemeReport.dto.UserRequestDto;
 import com.GovernmentSchemes.user.dto.RequestDto;
+import com.GovernmentSchemes.user.dto.UserResponseDto;
 import com.GovernmentSchemes.user.model.User;
 import com.GovernmentSchemes.user.service.UserService;
 
@@ -31,8 +32,8 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/get")
-    public ResponseEntity<List<User>> getAllUsers() {
-        List<User> users = userService.getAllUsers();
+    public ResponseEntity<List<UserResponseDto>> getAllUsers() {
+        List<UserResponseDto> users = userService.getAllUsers();
         return ResponseEntity.ok(users);
     }
     
@@ -65,8 +66,8 @@ public class UserController {
 
     // READ - Get user by ID
     @GetMapping("/{id}")
-    public ResponseEntity<User> getUserById(@PathVariable int id) {
-        User user = userService.getUserById(id);
+    public ResponseEntity<UserResponseDto> getUserById(@PathVariable int id) {
+        UserResponseDto user = userService.getUserById(id);
         if (user != null) {
             return ResponseEntity.ok(user);
         } else {
